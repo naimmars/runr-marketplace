@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Runr - Marketplace for Personal Shopper and Runner</title>
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/entypo/css/entypo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/sidemenu.css">
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="sidemenu-icon-close" onclick="closeNav()"></a>
+        <a href="profile.html" class="sidemenu_one"><span class="sidemenu-icon sidemenu-icon-profile"></span>Profile</a>
+        <a href="#" class="sidemenu_two"><span class="sidemenu-icon sidemenu-icon-task"></span>Task</a>
+        <a href="#" class="sidemenu_three"><span class="sidemenu-icon sidemenu-icon-inbox"></span>Inbox</a>
+        <a href="#" class="sidemenu_three"><span class="sidemenu-icon sidemenu-icon-setting"></span>Setting</a>
+        <a href="#" class="sidemenu_four"><span class="sidemenu-icon sidemenu-icon-help"></span>Help</a>
+        <button class="btn btn-rnr-primary btn-block logout">LOGOUT</button>
+    </div>
+    <nav class="navbar navbar-rnr-default navbar-static-top">
+        <div class="navbar-rnr-brand">
+            <span class="topbar-icon-menu" onclick="openNav()"></span>
+        </div>
+        <div class="navbar-rnr-brand pull-right">
+            <span class="navbar-text-light">Token Left : 3</span>
+            <a href="index.html"><span class="topbar-icon-buy"></span></a></div>
+    </nav>
+    <!--
+    <nav class="navbar navbar-rnr-tabbed">
+        <ul class="nav nav-tabs bordered">
+        
+            <li class="active">
+                <a href="#profile" data-toggle="tab">
+                    <span class="visible-xs"><i class="fa fa-users"></i> Client</span>
+                    <span class="hidden-xs">Profile</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="#home" data-toggle="tab">
+                    <span class="visible-xs"><i class="fa fa-user"></i> Runner</span>
+                    <span class="hidden-xs">Home</span>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+-->
+    <div class="btn-tabbed-container">
+        <div class="btn-group">
+        <button type="button" class="btn btn-tabbed btn-tabbed-active">Task Request</button>
+        <button type="button" class="btn btn-tabbed ">Task Available</button>
+    </div>
+    </div>
+    
+    <div class="container">
+        
+
+
+    </div>
+    <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/js/runr-js.js"></script>
+</body>
+
+</html>

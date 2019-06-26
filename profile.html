@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Runr - Marketplace for Personal Shopper and Runner</title>
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/entypo/css/entypo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/sidemenu.css">
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="sidemenu-icon-close" onclick="closeNav()"></a>
+        <a href="#" class="sidemenu_one"><span class="sidemenu-icon sidemenu-icon-profile"></span>Profile</a>
+        <a href="#" class="sidemenu_two"><span class="sidemenu-icon sidemenu-icon-task"></span>Task</a>
+        <a href="#" class="sidemenu_three"><span class="sidemenu-icon sidemenu-icon-inbox"></span>Inbox</a>
+        <a href="#" class="sidemenu_three"><span class="sidemenu-icon sidemenu-icon-setting"></span>Setting</a>
+        <a href="#" class="sidemenu_four"><span class="sidemenu-icon sidemenu-icon-help"></span>Help</a>
+        <button class="btn btn-rnr-primary btn-block logout">LOGOUT</button>
+    </div>
+    <nav class="navbar navbar-rnr-default navbar-static-top">
+        <div class="navbar-rnr-brand">
+            <span class="topbar-icon-menu" onclick="openNav()"></span>
+        </div>
+        <div class="navbar-rnr-brand pull-right">
+            <span class="navbar-text-light">Token Left : 3</span>
+            <a href="index.html"><span class="topbar-icon-buy"></span></a></div>
+    </nav>
+
+    <div class="container-no-tab">
+
+        <form method="post">
+            <div class="form-group">
+                <input class="form-control" type="text" name="username" placeholder="Username" autofocus="true">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="password" placeholder="Password">
+
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="email" placeholder="Email Address">
+
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="telno" placeholder="Telephone Number">
+
+            </div>
+            <div class="form-group">
+                <a href="main_page.html">
+                    <button class="btn btn-rnr-primary btn-block" type="submit">CREATE ACCOUNT</button>
+                </a>
+            </div>
+        </form>
+        <div class="text-center">Already have an account? Sign In.</div>
+    </div>
+    <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/js/runr-js.js"></script>
+</body>
+
+</html>
